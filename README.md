@@ -52,18 +52,19 @@ API реализован на быстром, удобном и функцион
 
 Для клиентов, привыкших работать с REST API, реализован прокси [API](https://developer.tbank.ru/invest/api).
 
-Есть поддержка WebSocket стриминга. [Спецификация](https://github.com/RussianInvestments/investAPI/blob/main/src/docs/ws/asyncapi.yaml)
+Есть поддержка WebSocket стриминга. [Спецификация](https://opensource.tbank.ru/invest/invest-contracts/-/blob/master/src/docs/ws/asyncapi.yaml)
 
 [Документация для разработчиков](https://developer.tbank.ru/invest/intro/intro)
 
 # SDK
-Вы можете как самостоятельно создать обертку по [proto-контрактам](https://github.com/RussianInvestments/investAPI/tree/main/src/docs/contracts) так воспользоваться одним из SDK:
+Вы можете как самостоятельно создать обертку по [proto-контрактам](https://opensource.tbank.ru/invest/invest-contracts/-/tree/master/src/docs/contracts) так воспользоваться одним из SDK:
 
-## SDK от RussianInvestments
+## SDK Т-Инвестиций
 * [go](https://github.com/RussianInvestments/invest-api-go-sdk)
-* [python](https://github.com/RussianInvestments/invest-python)
-* [java](https://github.com/RussianInvestments/invest-api-java-sdk)
+* [python](https://opensource.tbank.ru/invest/invest-python)
+* [java](https://opensource.tbank.ru/invest/invest-java)
 * [csharp](https://github.com/RussianInvestments/invest-api-csharp-sdk)
+* [kotlin](https://github.com/RussianInvestments/invest-api-kotlin-sdk)
 
 ## Неофициальные SDK
 * [golang](https://github.com/ssummers02/invest-api-go-sdk)
