@@ -617,6 +617,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/rpcStatus"
           description: "An unexpected error response"
+      summary: "DfaBy — получить цифровой актив по ее идентификатору"
       tags:
         - "InstrumentsService"
       x-codegen-request-body-name: "body"
@@ -700,6 +701,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/rpcStatus"
           description: "An unexpected error response"
+      summary: "Dfas — список цифровых активов"
       tags:
         - "InstrumentsService"
       x-codegen-request-body-name: "body"
@@ -13284,6 +13286,7 @@ components:
           type: "string"
         aciValue:
           $ref: "#/components/schemas/v1Quotation"
+      title: "Цифровой актив"
       type: "object"
     v1DfaResponseBasicAsset:
       description: "Базовый актив."
@@ -13295,6 +13298,7 @@ components:
           type: "string"
       type: "object"
     v1DfasRequest:
+      title: "Запрос цифровых активов"
       type: "object"
     v1DfasResponse:
       example:
@@ -13395,6 +13399,7 @@ components:
           items:
             $ref: "#/components/schemas/v1DfaResponse"
           type: "array"
+      title: "Цифровые активы"
       type: "object"
     v1Dividend:
       description: "Информация о выплате."
